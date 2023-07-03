@@ -1,0 +1,103 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f8f8;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #00b383;
+    background-color: blanchedalmond;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  /* Header Styles */
+  
+  h1 {
+    color: #007bff;
+    margin: 20px 0;
+    font-size: 28px;
+  }
+  
+  h2 {
+    color: #007bff;
+    margin: 15px 0;
+    font-size: 24px;
+  }
+  
+  h3 {
+    color: #007bff;
+    margin: 10px 0;
+    font-size: 20px;
+  }
+  
+  /* Navigation Styles */
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  /* Main Content Styles */
+  
+  hr {
+    border: none;
+    border-top: 1px solid #007bff;
+    margin: 30px 0;
+  }
+  
+  .magic {
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  iframe {
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  /* Footer Styles */
+  
+  p {
+    margin-top: 30px;
+    color: #666;
+    font-size: 16px;
+  }
+  
+  /* Miscellaneous */
+  
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  }
+  
